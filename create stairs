@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+	int i,j,stairs;
+	printf("How many stairs do you need Byte?\n");
+	scanf("%d",&stairs);
+	printf("\nHere they are....\n\n");
+	for(i=0;i<stairs;i++)
+	{
+		for(j=0;j<i;j++)
+		{
+			printf("01");
+		}
+		printf("\n");
+	}
+}
